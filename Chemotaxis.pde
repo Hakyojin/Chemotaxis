@@ -32,8 +32,8 @@ Bacteria[] coleIsGod = new Bacteria[bacNum];
  	int bacteriaX, bacteriaY, pallet;
  	Bacteria(int x, int y)
  	{
- 		bacteriaX = 400+(int)(Math.random()*10);
- 		bacteriaY = 400+(int)(Math.random()*10);
+ 		bacteriaX = (screen.width/2)+(int)(Math.random()*10);
+ 		bacteriaY = (screen.width/2)+(int)(Math.random()*10);
  		pallet = color((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
  	}
  	void walk()
