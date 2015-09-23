@@ -7,11 +7,11 @@ Bacteria[] coleIsGod = new Bacteria[bacNum];
  	{
  		coleIsGod[i]=new Bacteria(i*5,i*5);
  	}   
- 	size(800,800);
+ 	size(screen.width, screen.height);
  } 
  void draw()
  {
- 	background(255);
+ 	background(200);
  	for(int i=0;i<bacNum;i++)
  	{
  		coleIsGod[i].walk();
